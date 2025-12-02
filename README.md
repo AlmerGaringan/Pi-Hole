@@ -38,6 +38,6 @@ So seeing my score being a 96 out of 100 from an AdBlock tester shows that my Pi
 
 These are my results after 2 hours of my Pi-hole working. I noticed that there were no more pop-up ads on sites that I would visit, and I also noticed my browsing speed has gotten faster.
 
-<img width="1920" height="1080" alt="Screenshot (86)" src="https://github.com/user-attachments/assets/f76f514f-6af0-4e52-ba71-451ec69f05c1" />
+<img width="1560" height="847" alt="Screenshot (86)" src="https://github.com/user-attachments/assets/63d8625d-da33-4682-bc92-5cc317a1b70f" />
 
 Key takeaways I took from my first project were to strengthen my Linux skills and also learning about static IP, DNS, LAN, DHCP, and IP addresses. I was also able to gain hands-on experience and learn throughout this project about network security and privacy. Understanding how a Pi-hole can reduce the amount of spyware, adware, and malware queries that are happening on my network. I was finally able to deepen my skills and knowledge on how IP addresses, LAN, DHCP, DNS, and Malicious or unwanted queries play an important role in the IT and Cyber Security industry.
