@@ -17,7 +17,7 @@ Then I ran this command;
 
 curl -sSL https://install.pi.hole.net | bash 
 
-Curl is used to fetch or retrieve the data in that URL or from the server, and then -sSL: -s means silent mode, -S only shows errors, and L means any redirection 
+Curl is used to fetch or retrieve the data in that URL or from the server, and then -sSL: -s means silent mode, -S only shows errors, and -L means any redirection 
 
 Bash receives what the curl command wants to fetch, then turns that input into text and runs the script line by line. 
 
