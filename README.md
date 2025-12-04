@@ -1,8 +1,8 @@
 # Pi-Hole
 A Pi-hole is a network-wide ad blocker and a DNS filter. The reason I decided to build a Pi-Hole is to block the ads that are in my network. I learned a lot through this project; some of the key concepts I acquired include DNS, Linux, and IP addressing. 
+<img width="1066" height="600" alt="Screenshot (102)" src="https://github.com/user-attachments/assets/3fd9718b-fb90-4151-bc03-e505554d7202" />
 
 ## Hardware & OS
--Raspberry Pi 4
 
 -Travel router
 
@@ -18,11 +18,13 @@ sudo apt update
 
 sudo apt full-upgrade
 
+
 The first thing I did was update and fully upgrade my system. This allows your Pi packages to be fully updated to make sure they're up to date. 
 
 Then I ran this command;
 
 curl -sSL https://install.pi.hole.net | bash 
+
 
 Curl is used to fetch or retrieve the data in that URL or from the server, and then -sSL: -s means silent mode, -S only shows errors, and -L means any redirection 
 
@@ -37,6 +39,7 @@ In your router interface, you want to go to your DNS server settings and manuall
 another way of finding out your Pi-hole IP address is through the CLI and putting;
 
 ip addr
+
 
 This will give you all of the IP addresses on your Pi. So whatever interface you choose during the installation, whether it’s wlan0 or eht0 or some other one. The IP address will be under whatever you choose. 
 
