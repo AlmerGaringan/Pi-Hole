@@ -4,26 +4,29 @@ A Pi-hole is a network-wide ad blocker and a DNS filter. The reason I decided to
 
 ## Hardware & OS
 
--Travel router
+- Travel router
 
--Wireless Ethernet adapter. 
+- Wireless Ethernet adapter. 
 
--Raspberry Pi OS and Ubuntu Server
+- Raspberry Pi OS and Ubuntu Server
 
 ## Installation 
 
 The first command when I was building this project was;
 
+```
 sudo apt update
-
+```
+then
+```
 sudo apt full-upgrade
-
+```
 
 The first thing I did was update and fully upgrade my system. This allows your Pi packages to be fully updated to make sure they're up to date. 
 
 Then I ran this command;
 
-curl -sSL https://install.pi.hole.net | bash 
+```curl -sSL https://install.pi.hole.net | bash ```
 
 
 Curl is used to fetch or retrieve the data in that URL or from the server, and then -sSL: -s means silent mode, -S only shows errors, and -L means any redirection 
@@ -38,7 +41,7 @@ In your router interface, you want to go to your DNS server settings and manuall
 
 another way of finding out your Pi-hole IP address is through the CLI and putting;
 
-ip addr
+```ip addr```
 
 
 This will give you all of the IP addresses on your Pi. So whatever interface you choose during the installation, whether it’s wlan0 or eht0 or some other one. The IP address will be under whatever you choose. 
